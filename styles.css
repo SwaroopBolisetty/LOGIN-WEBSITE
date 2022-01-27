@@ -1,0 +1,58 @@
+*{
+  padding:0;
+  margin:0;
+}
+.index ul{
+  padding:25px:
+  position: absolute;
+  text-align: right;
+}
+.index ul li{
+  display:inline-block;
+  margin:0 20px;
+}
+.index ul li a{
+  font-size:30px;
+  text-decoration: none;
+  color:red;
+}
+h1{
+  color:green;
+}
+body{
+  background:url(./image.jpg);
+  background-size: cover;
+}
+.login{
+  width:350px;
+  top:40%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  position: absolute;
+  line-height: 2;
+}
+.login h1{
+  font-size: 40px;
+  text-align: center;
+  margin:40px 0;
+}
+.login p{
+  font-size: 20px;
+  margin:15px 0;
+}
+.login input{
+  font-size: 16px;
+  width:100%;
+  padding:15px 10px;
+  border:0;
+  outline:none;
+  border-radius: 50px;
+}
+.login button{
+  border-radius: 35%;
+  font-size: 30px;
+  color:black;
+  background-color: pink;
+  margin-left: 150px;
+  margin-top: 19px;
+}
